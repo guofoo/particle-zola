@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 200,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1200
         }
       },
       "color": {
@@ -77,12 +77,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "grab"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
